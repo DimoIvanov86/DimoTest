@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite">
+    <test name="Test">
+    <classes>
+        <class name="forgotPassword.ForgotPasswordTests">
+            <methods>
+                <include name="forgotPassword"/>
+            </methods>
+        </class>
+    </classes>
+    </test>
+</suite>
