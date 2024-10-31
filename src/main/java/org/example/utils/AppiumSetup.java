@@ -14,8 +14,8 @@ public class AppiumSetup {
     public static AppiumDriver<MobileElement> getDriver() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("deviceName", "Dimo");
-        capabilities.setCapability("udid", "RF8NB064K9L");
+        capabilities.setCapability("deviceName", "Dimo"); //Update with Device Name
+        capabilities.setCapability("udid", "RF8NB064K9L"); //Update with UDID of the phone in use
         capabilities.setCapability("appPackage", "com.example.dimotest");
         capabilities.setCapability("appActivity", "com.example.dimotest.MainActivity");
         capabilities.setCapability("noReset", true);
