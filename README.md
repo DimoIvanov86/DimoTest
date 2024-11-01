@@ -23,3 +23,12 @@ Enable Developer Options on the Android device.
 Enable USB Debugging on the device if using a real device.
 
 Download app-debug.apk file from the recources folder and install it on the phone.
+
+Android App:
+The Android app supports Android 12 and above, The app is using mocked data, so only the following email and password will go through the flow:
+
+Email: test@example.com
+
+Password: password123
+
+All other emails and password will be treated as a wrong email or password.
